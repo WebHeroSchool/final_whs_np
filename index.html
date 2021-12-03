@@ -6,78 +6,79 @@
 	<body>
 		<div class="wrapper">
 			<header class="header">
-				<logo class="logo">
-					<h1 class="logo__name-webhero">WebHero</h1>
+				<div class="logo">
+					<h2 class="logo__name-webhero">WebHero</h2>
 					<p class="logo__name-school">School</p>
-				</logo>
+				</div>
 			</header>
 
 			<main class="main">
 
-				<div class="main__desc">
-					<h1 class="main__desc_title">
+				<section class="desc-section">
+					<h1 class="desc-section__title">
 						Совсем скоро я стану крутым веб-разработчиком!
 					</h1>
-					<h2 class="main__desc_subtitle">
+					<h2 class="desc-section__subtitle">
 						У меня большие планы на ближайшее будущее!
 					</h2>
-					<p class="main__desc_text">
+					<p class="desc-section__text">
 						Я знаю, у меня все получится, ведь я уверенно шагаю вперед и достигаю больших результатов
 					</p>
-					<button class="main__button">
+					<!-- add the image in css -->
+					<button class="section__button">
 						Узнать больше!
 					</button>
-				</div>
+				</section>
 
-				<div class="main__section">
-					<h1 class="section__title">
+				<section class="plans-section">
+					<h2 class="plans-section__title">
 						Вот что я планирую
-					</h1>
+					</h2>
 
-					<div class="section__block section__block_first">
-						<img class="block__img block__img_first">
-						<h2 class="block__title block__title_first">
+					<div class="plans-section__block plans-section__block_first">
+						<img class="block__img block__img_first" src="img/medal-icon.svg" alt="medal icon">
+						<h3 class="block__title block__title_first">
 							Окончить курсы в WebHero School
-						</h2>
+						</h3>
 						<p class="block__desc block__desc_first">
 							Стать профессионалом своего дела
 						</p>
 					</div>
 
-					<div class="section__block section__block_second">
-						<img class="block__img block__img_second">
-						<h2 class="block__title block__title_second">
+					<div class="plans-section__block plans-section__block_second">
+						<img class="block__img block__img_second" src="img/suitcase-icon.svg" alt="suitcase icon">
+						<h3 class="block__title block__title_second">
 							Устроиться на работу своей мечты
-						</h2>
+						</h3>
 						<p class="block__desc block__desc_second">
 							Приходить на любимую работу с большой радостью
 						</p>
 					</div>
 
-					<div class="section__block section__block_third">
-						<img class="block__img block__img_third">
-						<h2 class="block__title block__title_third">
+					<div class="plans-section__block plans-section__block_third">
+						<img class="block__img block__img_third" src="img/money-icon.svg" alt="money icon">
+						<h3 class="block__title block__title_third">
 							Заработать свои первые деньги
-						</h2>
+						</h3>
 						<p class="block__desc block__desc_third">
 							Зарабатывать от 120 000 рублей в месяц
 						</p>
 					</div>
 
-					<h1 class="section__title">
+					<h2 class="section__title">
 						И это только начало!
-					</h1>
-					<p class="section__desc">
-						Я буду расти в области веб-разработки с каждым годом. 
-						Мои навыки и заработная плата будут расти вместе со мной. 
-						А сегодня я уже могу сверстать самостоятельно свой первый landing.
-					</p>
-				</div>
+					</h2>
+					<ul class="list__plan">
+						<li class="plan__item">Я буду расти в области веб-разработки с каждым годом.</li>
+						<li class="plan__item">Мои навыки и заработная плата будут расти вместе со мной.</li>
+						<li class="plan__item">А сегодня я уже могу сверстать самостоятельно свой первый landing.</li>
+					</ul>
+				</section>
 
-				<div class="main__form-section">
-					<h1 class="section_title">
+				<section class="form-section">
+					<h2 class="section_title">
 						Ты тоже можешь изменить свою профессию
-					</h1>
+					</h2>
 					<form class="section__form">
 						<input class="form__input form__input_name" type="text">
 						<input class="form__input form__input_email" type="text">
@@ -85,13 +86,14 @@
 					<button class="form__button">
 						Оставь заявку
 					</button>
-				</div>
+				</section>
 
 			</main>
 		</div>
+
+		<footer class="footer">
+			<p class="footer__text">2020 © WebHero School</p>
+		</footer>
 	</body>
 	
-	<footer class="footer">
-		<p class="footer__text">2020 © WebHero School</p>
-	</footer>
 </html>
