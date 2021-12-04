@@ -1,0 +1,47 @@
+.desc__title {
+  font-family: 'Gilroy';
+  font-weight: 800;
+  font-style: normal;
+  font-size: 45px;
+}
+
+.desc__subtitle {
+
+}
+
+.desc__text {
+  font-family: 'Gilroy';
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.section__button {
+  font-family: 'Monserrat';
+  font-weight: 900;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.plans__title {
+
+}
+
+.plans__subtitle {
+
+}
+
+.plans__desc {
+
+}
+
+.contact__title {
+
+}
+
+.footer__text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+}
