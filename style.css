@@ -1,17 +1,51 @@
+body {
+  margin: 0;
+}
+
+.wrapper {
+  width: 82%;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #3030C1;
+  padding-top: 60px;
+}
+
+.desc {
+  background: 100% 0% / 50% url(img/main-img.png) no-repeat;
+  background-color: #3030C1;
+  height: 550px;
+  padding-top: 80px;
+}
+
 .desc__title {
   font: 800 45px/55px 'Gilroy', sans-serif;
+  color: #FFFFFF;
+  width: 615px;
+  padding-bottom: 32px;
 }
 
 .desc__subtitle {
   font: 800 30px/37px 'Gilroy', sans-serif;
+  color: #FFCC33;
+  width: 355px;
+  padding-bottom: 10px;
 }
 
 .desc__text {
   font: 300 20px/23px 'Gilroy', sans-serif;
+  color: #FFFFFF;
+  width: 465px;
+  padding-bottom: 32px;
 }
 
 .section__button {
   font: 900 20px/24px 'Monserrat', sans-serif;
+  color: #3030C1;
+  padding: 15px 23px;
+  background-color: #FFCC33;
+  border: none;
 }
 
 .plans__title {
@@ -31,7 +65,7 @@
 }
 
 .plans__text {
-  font: 800 30px/36px 'Gilroy', sans-serif;
+  font: 300 30px/36px 'Gilroy', sans-serif;
 }
 
 .contact__title {
