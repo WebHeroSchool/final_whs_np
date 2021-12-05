@@ -1,0 +1,51 @@
+.desc__title {
+  font: 800 45px/55px 'Gilroy', sans-serif;
+}
+
+.desc__subtitle {
+  font: 800 30px/37px 'Gilroy', sans-serif;
+}
+
+.desc__text {
+  font: 300 20px/23px 'Gilroy', sans-serif;
+}
+
+.section__button {
+  font: 900 20px/24px 'Monserrat', sans-serif;
+}
+
+.plans__title {
+  font: 800 40px/49px 'Gilroy', sans-serif;
+}
+
+.plans__subtitle {
+  font: 800 30px/37px 'Gilroy', sans-serif;
+}
+
+.plans__desc {
+  font: 800 20px/24.5px 'Gilroy', sans-serif;
+}
+
+.section__title {
+  font: 800 40px/49px 'Gilroy', sans-serif;
+}
+
+.plans__text {
+  font: 800 30px/36px 'Gilroy', sans-serif;
+}
+
+.contact__title {
+  font: 800 40px/49px 'Gilroy', sans-serif;
+}
+
+.form__input {
+  font: 300 20px/23px 'Gilroy', sans-serif;
+}
+
+.form__button {
+  font: 900 20px/24px 'Monserrat', sans-serif;
+}
+
+.footer__text {
+  font: 400 15px/18px 'Roboto', sans-serif;
+}
