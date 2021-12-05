@@ -6,7 +6,10 @@
 }
 
 .desc__subtitle {
-
+  font-family: 'Gilroy';
+  font-weight: 800;
+  font-style: normal;
+  font-size: 30px;
 }
 
 .desc__text {
@@ -24,19 +27,59 @@
 }
 
 .plans__title {
-
+  font-family: 'Gilroy';
+  font-weight: 800;
+  font-style: normal;
+  font-size: 40px;
 }
 
 .plans__subtitle {
-
+  font-family: 'Gilroy';
+  font-weight: 800;
+  font-style: normal;
+  font-size: 30px;
 }
 
 .plans__desc {
+  font-family: 'Gilroy';
+  font-weight: 800;
+  font-style: normal;
+  font-size: 20px;
+}
 
+.section__title {
+  font-family: 'Gilroy';
+  font-weight: 800;
+  font-style: normal;
+  font-size: 40px;
+}
+
+.plans__text {
+  font-family: 'Gilroy';
+  font-weight: 800;
+  font-style: normal;
+  font-size: 30px;
 }
 
 .contact__title {
+  font-family: 'Gilroy';
+  font-weight: 800;
+  font-style: normal;
+  font-size: 40px;
+}
 
+.form__input {
+  font-family: 'Gilroy';
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.form__button {
+  font-family: 'Monserrat';
+  font-weight: 900;
+  font-style: normal;
+  font-size: 20px;
 }
 
 .footer__text {
