@@ -2,13 +2,13 @@ body {
   margin: 0;
 }
 
+header {
+  background-color: #3030c1;
+}
+
 .wrapper {
   width: 82%;
   margin: 0 auto;
-}
-
-header {
-  background-color: #3030c1;
 }
 
 .header {
@@ -17,9 +17,10 @@ header {
 
 
 .desc {
-  background: 100% 20% / 50% url(img/main-img.png) no-repeat;
+  background: 85% 29% / 39% url(img/main-img.png) no-repeat;
   height: 550px;
   padding-top: 80px;
+  padding-bottom: 100px;
   background-color: #3030c1;
 }
 
@@ -27,21 +28,23 @@ header {
   font: 800 45px/55px 'Gilroy', sans-serif;
   color: #fff;
   width: 615px;
-  padding-bottom: 32px;
+  padding-top: 13px;
+  margin-bottom: 32px;
 }
 
 .desc__subtitle {
   font: 800 30px/37px 'Gilroy', sans-serif;
   color: #ffcc33;
   width: 355px;
-  padding-bottom: 10px;
+  margin-bottom: 0;
 }
 
 .desc__text {
   font: 300 20px/23px 'Gilroy', sans-serif;
   color: #fff;
   width: 465px;
-  padding-bottom: 32px;
+  margin-top: 10px;
+  margin-bottom: 33px;
 }
 
 .section__button {
@@ -50,10 +53,16 @@ header {
   padding: 15px 23px;
   background-color: #ffcc33;
   border: none;
+  margin-left: 2px;
 }
 
 .plans__title {
   font: 800 40px/49px 'Gilroy', sans-serif;
+}
+
+.plans__list {
+  display: flex;
+  flex-direction: row;
 }
 
 .plans__subtitle {
@@ -94,7 +103,6 @@ header {
 
 .footer {
   background-color: #3030c1;
-  width: 82%;
   margin: 0 auto;
 }
 
@@ -102,3 +110,14 @@ header {
   font: 400 15px/18px 'Roboto', sans-serif;
   color: #fff;
 }
+
+@media (max-width: 320px) {
+  .section__button {
+    display: none;
+  }
+
+  .desc {
+    padding-top: 80%;
+  }
+}
+
