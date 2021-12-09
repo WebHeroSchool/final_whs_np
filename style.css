@@ -7,44 +7,48 @@ body {
   margin: 0 auto;
 }
 
+header {
+  background-color: #3030c1;
+}
+
 .header {
-  background-color: #3030C1;
   padding-top: 60px;
 }
 
+
 .desc {
-  background: 100% 0% / 50% url(img/main-img.png) no-repeat;
-  background-color: #3030C1;
+  background: 100% 20% / 50% url(img/main-img.png) no-repeat;
   height: 550px;
   padding-top: 80px;
+  background-color: #3030c1;
 }
 
 .desc__title {
   font: 800 45px/55px 'Gilroy', sans-serif;
-  color: #FFFFFF;
+  color: #fff;
   width: 615px;
   padding-bottom: 32px;
 }
 
 .desc__subtitle {
   font: 800 30px/37px 'Gilroy', sans-serif;
-  color: #FFCC33;
+  color: #ffcc33;
   width: 355px;
   padding-bottom: 10px;
 }
 
 .desc__text {
   font: 300 20px/23px 'Gilroy', sans-serif;
-  color: #FFFFFF;
+  color: #fff;
   width: 465px;
   padding-bottom: 32px;
 }
 
 .section__button {
   font: 900 20px/24px 'Monserrat', sans-serif;
-  color: #3030C1;
+  color: #3030c1;
   padding: 15px 23px;
-  background-color: #FFCC33;
+  background-color: #ffcc33;
   border: none;
 }
 
@@ -54,6 +58,7 @@ body {
 
 .plans__subtitle {
   font: 800 30px/37px 'Gilroy', sans-serif;
+  color: #3030c1;
 }
 
 .plans__desc {
@@ -68,6 +73,10 @@ body {
   font: 300 30px/36px 'Gilroy', sans-serif;
 }
 
+.contact {
+  background-color: #f0fbff;
+}
+
 .contact__title {
   font: 800 40px/49px 'Gilroy', sans-serif;
 }
@@ -78,8 +87,18 @@ body {
 
 .form__button {
   font: 900 20px/24px 'Monserrat', sans-serif;
+  padding: 28px 109px;
+  background-color: #ffcc33;
+  border: none;
+}
+
+.footer {
+  background-color: #3030c1;
+  width: 82%;
+  margin: 0 auto;
 }
 
 .footer__text {
   font: 400 15px/18px 'Roboto', sans-serif;
+  color: #fff;
 }
