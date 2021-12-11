@@ -56,6 +56,10 @@ header {
   margin-left: 2px;
 }
 
+.plans {
+  text-align: center;
+}
+
 .plans__title {
   font: 800 40px/49px 'Gilroy', sans-serif;
 }
@@ -84,14 +88,26 @@ header {
 
 .contact {
   background-color: #f0fbff;
+  text-align: center;
 }
 
 .contact__title {
   font: 800 40px/49px 'Gilroy', sans-serif;
 }
 
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .form__input {
   font: 300 20px/23px 'Gilroy', sans-serif;
+  width: 352px;
+  height: 80px;
+  border: none;
+  padding-left: 28px;
+  margin-bottom: 30px;
 }
 
 .form__button {
@@ -111,13 +127,66 @@ header {
   color: #fff;
 }
 
+@media (max-width: 1230px) {
+  .desc {
+    background: 90% 29% / 39% url(img/main-img.png) no-repeat;
+    background-color: #3030c1;
+  }
+}
+
+@media (max-width: 1150px) {
+  .desc__title {
+    width: 610px;
+  }
+
+  .desc {
+    background: 90% 40% / 39% url(img/main-img.png) no-repeat;
+    background-color: #3030c1;
+  }
+}
+
+@media (max-width: 950px) {
+  .desc__text {
+    width: 435px;
+  }
+}
+
 @media (max-width: 320px) {
+  .header {
+    padding-top: 39px;
+  }
+
+  .logo__img {
+    width: 93px;
+    height: 24px;
+  }
+
   .section__button {
     display: none;
   }
 
   .desc {
-    padding-top: 80%;
+    padding-top: 1px;
+    background: 50% 58% / 81% url(img/main-img.png) no-repeat;
+    background-color: #3030c1;
+  }
+
+  .desc__title {
+    width: 247px;
+    font: 800 25px/31px 'Gilroy', sans-serif;
+    padding-top: 0;
+    margin-bottom: 24px;
+  }
+
+  .desc__subtitle {
+    width: 235px;
+    font: 800 20px/25px 'Gilroy', sans-serif;
+    margin-top: 0;
+  }
+
+  .desc__text {
+    width: 236px;
+    font: 300 15px/17px 'Gilroy', sans-serif;
+    margin-top: 0;
   }
 }
-
