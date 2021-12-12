@@ -127,6 +127,8 @@ header {
   color: #fff;
 }
 
+/* -------------------------------------Adaptation------------------------------------ */
+
 @media (max-width: 1230px) {
   .desc {
     background: 90% 29% / 39% url(img/main-img.png) no-repeat;
@@ -136,7 +138,7 @@ header {
 
 @media (max-width: 1150px) {
   .desc__title {
-    width: 610px;
+    width: 455px;
   }
 
   .desc {
@@ -146,8 +148,158 @@ header {
 }
 
 @media (max-width: 950px) {
+  .desc {
+    background: 90% 40% / 45% url(img/main-img.png) no-repeat;
+    background-color: #3030c1;
+    padding-top: 50px;
+    height: 450px;
+  }
+
+  .desc__title {
+    font: 800 40px/45px 'Gilroy', sans-serif;
+    width: 400px;
+  }
+
+  .desc__subtitle {
+    font: 800 30px/30px 'Gilroy', sans-serif;
+  }
+
   .desc__text {
-    width: 435px;
+    width: 390px;
+  }
+}
+
+@media (max-width: 890px) {
+  .desc {
+    background: 91% 26% / 45% url(img/main-img.png) no-repeat;
+    background-color: #3030c1;
+    padding-top: 40px;
+  }
+
+  .desc__title {
+    font: 800 35px/40px 'Gilroy', sans-serif;
+    width: 350px;
+  }
+
+  .desc__subtitle {
+    font: 800 25px/25px 'Gilroy', sans-serif;
+  }
+
+  .desc__text {
+    font: 300 16px/18px 'Gilroy', sans-serif;
+    width: 350px;
+    margin-bottom: 25px;
+  }
+
+  .section__button {
+    font: 900 18px/18px 'Monserrat', sans-serif;
+  }
+}
+
+@media (max-width: 768px) {
+  .desc {
+    background: 50% 70% / 70% url(img/main-img.png) no-repeat;
+    background-color: #3030c1;
+    padding-bottom: 450px;
+  }
+
+  .desc__title {
+    width: 500px;
+    margin-bottom: 0;
+  }
+  
+  .desc__subtitle {
+    width: 455px;
+  }
+
+  .desc__text {
+    width: 410px;
+  }
+
+  .section__button {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .desc {
+    background: 50% 80% / 70% url(img/main-img.png) no-repeat;
+    background-color: #3030c1;
+    padding-bottom: 400px;
+  }
+
+  .desc__subtitle {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 570px) {
+  .logo__img {
+    width: 93px;
+    height: 24px;
+  }
+
+  .desc {
+    background: 50% 85% / 70% url(img/main-img.png) no-repeat;
+    background-color: #3030c1;
+    padding-bottom: 300px;
+  }
+
+  .desc__title {
+    font: 800 35px/45px 'Gilroy', sans-serif;
+    width: 350px;
+    margin-bottom: 30px;
+    padding-top: 0;
+  }
+
+  .desc__subtitle {
+    font: 800 29px/25px 'Gilroy', sans-serif;
+    width: 350px;
+  }
+
+  .desc__text {
+    font: 300 20px/18px 'Gilroy', sans-serif;
+    width: 350px;
+  }
+}
+
+@media (max-width: 450px) {
+  .desc {
+    padding-bottom: 250px;
+  }
+}
+
+@media (max-width: 415px) {
+  .header {
+    padding-top: 39px;
+  }
+
+  .logo__img {
+    width: 93px;
+    height: 24px;
+  }
+
+  .desc {
+    background: 50% 80% / 70% url(img/main-img.png) no-repeat;
+    background-color: #3030c1;
+    padding-top: 1px;
+    padding-bottom: 150px;
+  }
+
+  .desc__title {
+    width: 185px;
+    font: 800 25px/31px 'Gilroy', sans-serif;
+    padding-top: 0;
+  }
+
+  .desc__subtitle {
+    width: 235px;
+    font: 800 20px/25px 'Gilroy', sans-serif;
+  }
+
+  .desc__text {
+    width: 236px;
+    font: 300 15px/17px 'Gilroy', sans-serif;
   }
 }
 
@@ -167,26 +319,31 @@ header {
 
   .desc {
     padding-top: 1px;
-    background: 50% 58% / 81% url(img/main-img.png) no-repeat;
+    padding-bottom: 0;
+    background: 50% 85% / 81% url(img/main-img.png) no-repeat;
     background-color: #3030c1;
+    height: 527px;
   }
 
   .desc__title {
-    width: 247px;
+    width: 185px;
     font: 800 25px/31px 'Gilroy', sans-serif;
     padding-top: 0;
-    margin-bottom: 24px;
+    margin: 20px 0 25px 2px;
   }
 
   .desc__subtitle {
     width: 235px;
     font: 800 20px/25px 'Gilroy', sans-serif;
-    margin-top: 0;
+    margin: 0 0 0 1px;
   }
 
   .desc__text {
     width: 236px;
     font: 300 15px/17px 'Gilroy', sans-serif;
-    margin-top: 0;
+    margin: 1px 0 0 1px;
   }
 }
+
+
+/* прописать height у desc у остальных запросов и отрегулировать маржины - у мобильной версии */
