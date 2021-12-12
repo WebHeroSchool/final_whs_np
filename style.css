@@ -6,9 +6,14 @@ header {
   background-color: #3030c1;
 }
 
+li {
+  list-style-type: none;
+}
+
 .wrapper {
   width: 82%;
   margin: 0 auto;
+  max-width: 1440px;
 }
 
 .header {
@@ -17,11 +22,15 @@ header {
 
 
 .desc {
-  background: 85% 29% / 39% url(img/main-img.png) no-repeat;
-  height: 550px;
+  /* background: 85% 29% / 39% url(img/main-img.png) no-repeat; */
+  max-height: 100%;
   padding-top: 80px;
-  padding-bottom: 100px;
+  padding-bottom: 240px;
   background-color: #3030c1;
+}
+
+.desc__bg {
+  background: 85% 29% / 39% url(img/main-img.png) no-repeat;
 }
 
 .desc__title {
@@ -30,6 +39,10 @@ header {
   width: 615px;
   padding-top: 13px;
   margin-bottom: 32px;
+}
+
+.title-span {
+  padding-left: 8px;
 }
 
 .desc__subtitle {
@@ -62,11 +75,27 @@ header {
 
 .plans__title {
   font: 800 40px/49px 'Gilroy', sans-serif;
+  margin-top: 55px;
+  margin-bottom: 30px;
 }
 
 .plans__list {
   display: flex;
   flex-direction: row;
+  padding-left: 0;
+  height: 400px;
+  margin-bottom: 55px;
+}
+
+.plans__block {
+  background-color: #fbfbfb;
+  margin-left: 20px;
+  width: 380px;
+  padding-top: 50px;
+}
+
+.plans__block:first-child {
+  margin-left: 0;
 }
 
 .plans__subtitle {
@@ -125,14 +154,18 @@ header {
 .footer__text {
   font: 400 15px/18px 'Roboto', sans-serif;
   color: #fff;
+  margin: 0;
 }
 
 /* -------------------------------------Adaptation------------------------------------ */
 
 @media (max-width: 1230px) {
   .desc {
-    background: 90% 29% / 39% url(img/main-img.png) no-repeat;
     background-color: #3030c1;
+  }
+
+  .desc__bg {
+    background: 90% 29% / 39% url(img/main-img.png) no-repeat;
   }
 }
 
@@ -142,14 +175,14 @@ header {
   }
 
   .desc {
-    background: 90% 40% / 39% url(img/main-img.png) no-repeat;
+    /* background: 90% 40% / 39% url(img/main-img.png) no-repeat; */
     background-color: #3030c1;
   }
 }
 
 @media (max-width: 950px) {
   .desc {
-    background: 90% 40% / 45% url(img/main-img.png) no-repeat;
+    /* background: 90% 40% / 45% url(img/main-img.png) no-repeat; */
     background-color: #3030c1;
     padding-top: 50px;
     height: 450px;
@@ -171,7 +204,7 @@ header {
 
 @media (max-width: 890px) {
   .desc {
-    background: 91% 26% / 45% url(img/main-img.png) no-repeat;
+    /* background: 91% 26% / 45% url(img/main-img.png) no-repeat; */
     background-color: #3030c1;
     padding-top: 40px;
   }
@@ -198,7 +231,7 @@ header {
 
 @media (max-width: 768px) {
   .desc {
-    background: 50% 70% / 70% url(img/main-img.png) no-repeat;
+    /* background: 50% 70% / 70% url(img/main-img.png) no-repeat; */
     background-color: #3030c1;
     padding-bottom: 450px;
   }
@@ -223,7 +256,7 @@ header {
 
 @media (max-width: 600px) {
   .desc {
-    background: 50% 80% / 70% url(img/main-img.png) no-repeat;
+    /* background: 50% 80% / 70% url(img/main-img.png) no-repeat; */
     background-color: #3030c1;
     padding-bottom: 400px;
   }
@@ -240,7 +273,7 @@ header {
   }
 
   .desc {
-    background: 50% 85% / 70% url(img/main-img.png) no-repeat;
+    /* background: 50% 85% / 70% url(img/main-img.png) no-repeat; */
     background-color: #3030c1;
     padding-bottom: 300px;
   }
@@ -280,7 +313,7 @@ header {
   }
 
   .desc {
-    background: 50% 80% / 70% url(img/main-img.png) no-repeat;
+    /* background: 50% 80% / 70% url(img/main-img.png) no-repeat; */
     background-color: #3030c1;
     padding-top: 1px;
     padding-bottom: 150px;
@@ -320,7 +353,7 @@ header {
   .desc {
     padding-top: 1px;
     padding-bottom: 0;
-    background: 50% 85% / 81% url(img/main-img.png) no-repeat;
+    /* background: 51% 84% / 81% url(img/main-img.png) no-repeat; */
     background-color: #3030c1;
     height: 527px;
   }
@@ -330,6 +363,10 @@ header {
     font: 800 25px/31px 'Gilroy', sans-serif;
     padding-top: 0;
     margin: 20px 0 25px 2px;
+  }
+
+  .title-span {
+    padding-left: 3px;
   }
 
   .desc__subtitle {
