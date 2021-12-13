@@ -91,7 +91,7 @@ li {
   margin-left: 20px;
   width: 380px;
   padding-top: 50px;
-  box-shadow: #e0e0e0 0 5px 15px 5px;
+  box-shadow: #e0e0e0 0 5px 15px 10px;
 }
 
 .plans__block:first-child {
@@ -101,33 +101,44 @@ li {
 .plans__subtitle {
   font: 800 30px/37px 'Gilroy', sans-serif;
   color: #3030c1;
-  margin-top: 18px;
+  margin-top: 21px;
+  margin-bottom: 12px;
 }
 
-/* ------------???----------- */
-.plans__subtitle:last-child {
+.plans__block:last-child .plans__subtitle {
   width: 255px;
+  margin-top: 19px;
+  margin-bottom: 24px;
+  margin-left: 66px;
 }
-/* ------------???----------- */
+
+.plans__block:first-child .plans__subtitle {
+  margin-top: 19px;
+  margin-bottom: 24px;
+}
 
 .plans__desc {
   font: 800 20px/24.5px 'Gilroy', sans-serif;
+  width: 250px;
+  margin-top: 0;
+  margin-left: 63px;
 }
 
 .section__title {
   font: 800 40px/49px 'Gilroy', sans-serif;
+  margin-bottom: 5px;
 }
 
 .plans__text {
   font: 300 30px/36px 'Gilroy', sans-serif;
   padding-left: 19px;
-
+  margin-bottom: 54px;
 }
 
 .contact {
   background-color: #f0fbff;
   text-align: center;
-  padding: 73px 0; 
+  padding: 54px 0; 
 }
 
 .contact__title {
@@ -160,18 +171,19 @@ li {
   padding: 28px 109px;
   background-color: #ffcc33;
   border: none;
+  margin-bottom: 17px;
 }
 
 .footer {
   background-color: #3030c1;
   margin: 0 auto;
-  padding: 49px 0;
+  padding: 46px 0;
 }
 
 .footer__text {
   font: 400 15px/18px 'Roboto', sans-serif;
   color: #fff;
-  margin: 0;
+  margin: 4px 0 7px 4px;
 }
 
 /* -------------------------------------Adaptation------------------------------------ */
