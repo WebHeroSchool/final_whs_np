@@ -91,6 +91,7 @@ li {
   margin-left: 20px;
   width: 380px;
   padding-top: 50px;
+  box-shadow: #e0e0e0 0 5px 15px 5px;
 }
 
 .plans__block:first-child {
@@ -100,7 +101,14 @@ li {
 .plans__subtitle {
   font: 800 30px/37px 'Gilroy', sans-serif;
   color: #3030c1;
+  margin-top: 18px;
 }
+
+/* ------------???----------- */
+.plans__subtitle:last-child {
+  width: 255px;
+}
+/* ------------???----------- */
 
 .plans__desc {
   font: 800 20px/24.5px 'Gilroy', sans-serif;
@@ -112,15 +120,20 @@ li {
 
 .plans__text {
   font: 300 30px/36px 'Gilroy', sans-serif;
+  padding-left: 19px;
+
 }
 
 .contact {
   background-color: #f0fbff;
   text-align: center;
+  padding: 73px 0; 
 }
 
 .contact__title {
   font: 800 40px/49px 'Gilroy', sans-serif;
+  margin-top: 18px;
+  margin-bottom: 48px;
 }
 
 .form {
@@ -138,6 +151,10 @@ li {
   margin-bottom: 30px;
 }
 
+.form__input:last-child {
+  margin-bottom: 74px;
+}
+
 .form__button {
   font: 900 20px/24px 'Monserrat', sans-serif;
   padding: 28px 109px;
@@ -148,6 +165,7 @@ li {
 .footer {
   background-color: #3030c1;
   margin: 0 auto;
+  padding: 49px 0;
 }
 
 .footer__text {
