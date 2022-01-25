@@ -82,7 +82,8 @@ li {
   display: flex;
   flex-direction: row;
   padding-left: 0;
-  height: 400px;
+  /* height: 400px; */
+  /* delete above */
   margin-bottom: 55px;
 }
 
@@ -435,11 +436,12 @@ li {
   .plans__list {
     display: flex;
     flex-direction: column;
+    margin-bottom: 34px;
   }
 
   .plans__block {
     width: 259px;
-    height: 273px;
+    height: 234px;
     margin-left: 0;
     margin-bottom: 20px;
     padding-top: 40px;
@@ -448,7 +450,6 @@ li {
   .plans__img {
     width: 85px;
     height: 85px;
-    margin-top: ;
     margin-left: 4px;
   }
 
@@ -502,38 +503,54 @@ li {
 
   .section__title {
     font: 800 20px/25px 'Gilroy', sans-serif;
-    margin-top: 516px;
+    /* margin-top: 516px; */
+    /* delete above */
   }
 
   .plans__text {
     font: 300 18px/21px 'Gilroy', sans-serif;
-    margin-top: 32px;
-    /* padding-left: 0; */
-    width: 201px;
+    width: 226px;
     min-height: 210px;
-    padding: 0px 14px 7px 29px;
+    margin: 0 auto;
+    padding: 27px 0 54px 0;
+  }
+
+  .contact {
+    padding: 44px 0;
   }
 
   .contact__title {
     font: 800 20px/25px 'Gilroy', sans-serif;
+    margin-top: 0;
+    margin-bottom: 25px;
   }
 
   .form__input {
     font: 300 10px/12px 'Gilroy', sans-serif;
     width: 230px;
     height: 45px;
+    margin-bottom: 9px;
+  }
+
+  .form__input:last-child {
+    margin-bottom: 25px;
   }
 
   .form__button {
     font: 900 10px/12px 'Monserrat', sans-serif;
     padding: 17px 89px;
+    margin-bottom: 0;
   }
 
   .footer {
-    padding: 25px 0;
+    padding: 18px 0;
   }
 
   .footer__text {
     font: 400 10px/12px 'Roboto', sans-serif;
   }
 }
+
+/* @media (min-width:1441px) {
+
+} */
