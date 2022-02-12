@@ -187,7 +187,7 @@ li {
   margin: 4px 0 7px 4px;
 }
 
-/* -------------------------------------Adaptation------------------------------------ */
+/* ----------------------------------Adaptation------------------------------ */
 
 @media (max-width: 1230px) {
   .desc {
@@ -293,6 +293,24 @@ li {
   .section__button {
     display: none;
   }
+
+  .plans__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .plans__block {
+    margin-bottom: 20px;
+    margin-left: 0;
+    padding-top: 40px;
+    width: 400px;
+    height: 370px;
+  }
+
+  .plans__text {
+    padding-left: 0;
+  }
 }
 
 @media (max-width: 600px) {
@@ -342,9 +360,103 @@ li {
   }
 }
 
+@media (max-width: 464px) {
+  .form__input {
+    width: 335px;
+    height: 75px;
+  }
+
+  .form__button {
+    padding: 25px 100px;
+  }
+
+  .footer {
+    padding: 30px 0;
+  }
+}
+
 @media (max-width: 450px) {
+  .desc__title {
+    font: 800 30px/30px 'Gilroy', sans-serif;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+
+  .desc__subtitle {
+    font: 800 20px/25px 'Gilroy', sans-serif;
+  }
+
+  .desc__text {
+    font: 300 15px/17px 'Gilroy', sans-serif;
+  }
+
   .desc__bg {
     padding-bottom: 250px;
+  }
+
+  .plans__title {
+    font: 800 25px/31px 'Gilroy', sans-serif;
+  }
+
+  .plans__subtitle {
+    font: 800 25px/25px 'Gilroy', sans-serif;
+  }
+
+  .plans__desc {
+    font: 800 20px/24.5px 'Gilroy', sans-serif;
+    margin-left: 15%;
+  }
+
+  .plans__block {
+    width: 350px;
+    height: 370px;
+  }
+
+  .plans__block:last-child .plans__subtitle {
+    margin-left: 45px;
+  }
+
+  .plans__block:last-child .plans__desc {
+    margin-left: 50px;
+  }
+
+  .section__title{
+    font: 800 30px/49px 'Gilroy', sans-serif;
+  }
+
+  .plans__text {
+    font: 300 25px/31px 'Gilroy', sans-serif;
+  }
+
+  .contact__title {
+    font: 800 30px/39px 'Gilroy', sans-serif;
+  }
+}
+
+@media (max-width: 440px) {
+  .form__input {
+    font: 300 17px/23px 'Gilroy', sans-serif;
+    width: 335px;
+    height: 75px;
+  }
+
+  .form__button {
+    padding: 25px 99px;
+  }
+
+  .footer {
+    padding: 30px 0;
+  }
+}
+
+@media (max-width: 437px) {
+  .form__input {
+    width: 314px;
+    height: 64px;
+  }
+
+  .form__button {
+    padding: 20px 90px;
   }
 }
 
@@ -369,9 +481,8 @@ li {
   }
 
   .desc__title {
-    width: 185px;
-    font: 800 25px/31px 'Gilroy', sans-serif;
     padding-top: 0;
+    margin-top: 30px;
   }
 
   .desc__subtitle {
@@ -382,6 +493,164 @@ li {
   .desc__text {
     width: 236px;
     font: 300 15px/17px 'Gilroy', sans-serif;
+  }
+
+  .form__input {
+    width: 300px;
+  }
+
+  .form__button {
+    padding: 20px 85px;
+  }
+}
+
+@media (max-width: 403px) {
+  .form__button {
+    padding: 20px 80px;
+  }
+}
+
+@media (max-width: 391px) {
+  .form__button {
+    padding: 20px 75px;
+  }
+}
+
+@media (max-width: 385px) {
+  .plans__block {
+    width: 330px;
+    height: 330px;
+  }
+
+  .plans__desc {
+    margin-left: 12%;
+  }
+
+  .plans__block:last-child .plans__subtitle {
+    margin-left: 35px;
+  }
+
+  .plans__block:last-child .plans__desc {
+    margin-left: 40px;
+  }
+}
+
+@media (max-width: 379px) { 
+  .contact__title {
+    font: 800 25px/31px 'Gilroy', sans-serif;
+    margin-top: 0;
+    margin-bottom: 25px;
+  }
+
+  .form__input {
+    font: 300 13px/12px 'Gilroy', sans-serif;
+    width: 270px;
+    height: 50px;
+    margin-bottom: 9px;
+  }
+
+  .form__input:last-child {
+    margin-bottom: 25px;
+  }
+
+  .form__button {
+    font: 900 15px/12px 'Monserrat', sans-serif;
+    padding: 17px 89px;
+    margin-bottom: 0;
+  }
+
+  .footer {
+    padding: 18px 0;
+  }
+
+  .footer__text {
+    font: 400 10px/12px 'Roboto', sans-serif;
+  }
+}
+
+@media (max-width: 364px) {
+  .desc__title {
+    font: 800 25px/31px 'Gilroy', sans-serif;
+    width: 185px;
+  }
+
+  .plans__block {
+    width: 259px;
+    height: 234px;
+    margin-left: 0;
+    margin-bottom: 20px;
+    padding-top: 40px;
+  }
+
+  .plans__img {
+    width: 85px;
+    height: 85px;
+    margin-left: 4px;
+  }
+
+  .plans__block:first-child .plans__img {
+    margin-left: 2px;
+    margin-top: 4px;
+  }
+
+  .plans__subtitle {
+    font: 800 20px/25px 'Gilroy', sans-serif;
+    margin-bottom: 0;
+    margin-top: 11px;
+    margin-left: 4px;
+  }
+
+  .plans__block:first-child .plans__subtitle {
+    margin-top: 10px;
+    margin-bottom: 14px;
+  }
+
+  .plans__block:last-child .plans__subtitle {
+    margin-top: 12px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    width: 162px;
+  }
+
+  .plans__subtitle_position {
+    margin-left: 4px;
+  }
+
+  .plans__desc {
+    font: 800 10px/12px 'Gilroy', sans-serif;
+    /* margin-left: 0;
+    margin-bottom: 40px; */
+    width: 116px;
+    margin: 7px auto 42px;
+  }
+
+  .plans__block:first-child .plans__desc {
+    margin-left: 73px;
+  }
+
+  .plans__block:last-child .plans__desc {
+    width: 125px;
+    margin-left: 65px;
+  }
+
+  .plans__text {
+    font: 300 18px/21px 'Gilroy', sans-serif;
+    width: 226px;
+    min-height: 210px;
+    margin: 0 auto;
+    padding: 27px 0 54px 0;
+  }
+
+  .section__title {
+    font: 800 25px/49px 'Gilroy', sans-serif;
+  }
+
+  .form__input {
+    width: 230px;
+  }
+
+  .form__button {
+    padding: 17px 70px;
   }
 }
 
@@ -499,6 +768,7 @@ li {
 
   .plans__block:last-child .plans__desc {
     width: 125px;
+    margin-left: 65px;
   }
 
   .section__title {
@@ -554,3 +824,5 @@ li {
 /* @media (min-width:1441px) {
 
 } */
+
+/* for bigger screens above */
