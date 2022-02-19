@@ -59,6 +59,8 @@ ul {
 .title-span {
   padding-left: 4px;
   padding-right: 4px;
+  /* delete */
+  padding-top: 1px;
 }
 
 .desc__subtitle {
