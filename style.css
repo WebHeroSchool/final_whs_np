@@ -10,6 +10,22 @@ li {
   list-style-type: none;
 }
 
+h2 {
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+}
+
 .wrapper {
   width: 82%;
   margin: 0 auto;
@@ -35,7 +51,6 @@ li {
 .desc__title {
   font: 800 45px/55px 'Gilroy', sans-serif;
   color: #fff;
-  /* width: 615px; */
   width: 38.438rem;
   padding-top: 13px;
   margin-bottom: 32px;
@@ -49,24 +64,22 @@ li {
   font: 800 30px/37px 'Gilroy', sans-serif;
   color: #ffcc33;
   width: 355px;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
 .desc__text {
   font: 300 20px/23px 'Gilroy', sans-serif;
   color: #fff;
   width: 465px;
-  margin-top: 10px;
   margin-bottom: 32px;
 }
 
 .section__button {
   font: 900 20px/24px 'Monserrat', sans-serif;
   color: #3030c1;
-  padding: 16px 23px 15px 23px;
+  padding: 16px 23px 15px 25px;
   background-color: #ffcc33;
   border: none;
-  margin-left: 2px;
 }
 
 .plans {
@@ -75,60 +88,59 @@ li {
 
 .plans__title {
   font: 800 40px/49px 'Gilroy', sans-serif;
-  margin-top: 55px;
+  padding-top: 55px;
   margin-bottom: 30px;
 }
 
 .plans__list {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   padding-left: 0;
-  /* height: 400px; */
-  /* delete above */
   margin-bottom: 55px;
 }
 
 .plans__block {
   background-color: #fbfbfb;
-  margin-left: 20px;
+  margin-right: 20px;
   width: 380px;
   padding-top: 50px;
+  padding-bottom: 53px;
   box-shadow: #e0e0e0 0 5px 15px 10px;
 }
 
-.plans__block:first-child {
-  margin-left: 0;
+.plans__block:last-child {
+  margin-right: 0;
+}
+
+.plans__img {
+  margin-bottom: 20px;
 }
 
 .plans__subtitle {
   font: 800 30px/37px 'Gilroy', sans-serif;
   color: #3030c1;
-  margin-top: 21px;
   margin-bottom: 12px;
+}
+
+.plans__block:first-child .plans__subtitle {
+  margin: 0 auto 24px;
 }
 
 .plans__block:last-child .plans__subtitle {
   width: 255px;
-  margin-top: 19px;
-  margin-bottom: 24px;
-  margin-left: 66px;
-}
-
-.plans__block:first-child .plans__subtitle {
-  margin-top: 19px;
-  margin-bottom: 24px;
+  margin: 0 auto 24px;
 }
 
 .plans__desc {
   font: 800 20px/24.5px 'Gilroy', sans-serif;
   width: 250px;
-  margin-top: 0;
-  margin-left: 63px;
+  margin: 0 auto;
 }
 
 .section__title {
   font: 800 40px/49px 'Gilroy', sans-serif;
-  margin-bottom: 5px;
+  margin-bottom: 28px;
 }
 
 .plans__text {
@@ -145,8 +157,8 @@ li {
 
 .contact__title {
   font: 800 40px/49px 'Gilroy', sans-serif;
-  margin-top: 18px;
   margin-bottom: 48px;
+  padding-top: 17px;
 }
 
 .form {
@@ -202,11 +214,10 @@ li {
 
 @media (max-width: 1150px) {
   .wrapper {
-    width: 85%;
+    width: 82%;
   }
 
   .desc__title {
-    /* width: 455px; */
     width: 28.438rem;
   }
 
@@ -227,8 +238,8 @@ li {
   }
 
   .plans__block {
-    margin-left: 0;
     margin-bottom: 20px;
+    margin-right: 0;
     padding-bottom: 40px;
   }
 }
@@ -245,7 +256,6 @@ li {
 
   .desc__title {
     font: 800 40px/45px 'Gilroy', sans-serif;
-    /* width: 400px; */
     width: 25rem;
   }
 
@@ -264,7 +274,6 @@ li {
   }
 
   .plans__block {
-    margin-left: 0;
     margin-bottom: 20px;
     padding-bottom: 40px;
   }
@@ -282,7 +291,6 @@ li {
 
   .desc__title {
     font: 800 35px/40px 'Gilroy', sans-serif;
-    /* width: 350px; */
     width: 21.875rem;
   }
 
@@ -307,7 +315,6 @@ li {
   }
 
   .plans__block{
-    margin-left: 0;
     margin-bottom: 20px;
     padding-bottom: 40px;
   }
@@ -324,7 +331,6 @@ li {
   }
 
   .desc__title {
-    /* width: 500px; */
     width: 31.25rem;
     margin-bottom: 0;
   }
@@ -349,10 +355,8 @@ li {
 
   .plans__block {
     margin-bottom: 20px;
-    margin-left: 0;
     padding-top: 40px;
     width: 400px;
-    height: 370px;
   }
 
   .plans__text {
@@ -391,7 +395,6 @@ li {
 
   .desc__title {
     font: 800 35px/45px 'Gilroy', sans-serif;
-    /* width: 350px; */
     width: 21.875rem;
     margin-bottom: 30px;
     padding-top: 0;
@@ -427,7 +430,6 @@ li {
   .desc__title {
     font: 800 30px/30px 'Gilroy', sans-serif;
     margin-bottom: 15px;
-    margin-top: 15px;
   }
 
   .desc__subtitle {
@@ -452,20 +454,10 @@ li {
 
   .plans__desc {
     font: 800 20px/24.5px 'Gilroy', sans-serif;
-    margin-left: 15%;
   }
 
   .plans__block {
     width: 350px;
-    height: 370px;
-  }
-
-  .plans__block:last-child .plans__subtitle {
-    margin-left: 45px;
-  }
-
-  .plans__block:last-child .plans__desc {
-    margin-left: 50px;
   }
 
   .section__title{
@@ -530,7 +522,6 @@ li {
 
   .desc__title {
     padding-top: 0;
-    margin-top: 30px;
   }
 
   .desc__subtitle {
@@ -567,26 +558,12 @@ li {
 @media (max-width: 385px) {
   .plans__block {
     width: 330px;
-    height: 330px;
-  }
-
-  .plans__desc {
-    margin-left: 12%;
-  }
-
-  .plans__block:last-child .plans__subtitle {
-    margin-left: 35px;
-  }
-
-  .plans__block:last-child .plans__desc {
-    margin-left: 40px;
   }
 }
 
 @media (max-width: 379px) { 
   .contact__title {
     font: 800 25px/31px 'Gilroy', sans-serif;
-    margin-top: 0;
     margin-bottom: 25px;
   }
 
@@ -619,14 +596,11 @@ li {
 @media (max-width: 364px) {
   .desc__title {
     font: 800 25px/31px 'Gilroy', sans-serif;
-    /* width: 185px; */
     width: 11.563rem;
   }
 
   .plans__block {
     width: 259px;
-    height: 234px;
-    margin-left: 0;
     margin-bottom: 20px;
     padding-top: 40px;
   }
@@ -634,50 +608,30 @@ li {
   .plans__img {
     width: 85px;
     height: 85px;
-    margin-left: 4px;
-  }
-
-  .plans__block:first-child .plans__img {
-    margin-left: 2px;
-    margin-top: 4px;
   }
 
   .plans__subtitle {
     font: 800 20px/25px 'Gilroy', sans-serif;
     margin-bottom: 0;
-    margin-top: 11px;
-    margin-left: 4px;
   }
 
   .plans__block:first-child .plans__subtitle {
-    margin-top: 10px;
     margin-bottom: 14px;
   }
 
   .plans__block:last-child .plans__subtitle {
-    margin-top: 12px;
-    margin-left: 50px;
     margin-bottom: 15px;
     width: 162px;
-  }
-
-  .plans__subtitle_position {
-    margin-left: 4px;
   }
 
   .plans__desc {
     font: 800 10px/12px 'Gilroy', sans-serif;
     width: 116px;
-    margin: 7px auto 42px;
-  }
-
-  .plans__block:first-child .plans__desc {
-    margin-left: 73px;
+    margin: 7px auto;
   }
 
   .plans__block:last-child .plans__desc {
     width: 125px;
-    margin-left: 65px;
   }
 
   .plans__text {
@@ -727,7 +681,6 @@ li {
   }
 
   .desc__title {
-    /* width: 185px; */
     width: 11.563rem;
     font: 800 25px/31px 'Gilroy', sans-serif;
     padding-top: 0;
@@ -753,13 +706,11 @@ li {
   .plans__list {
     display: flex;
     flex-direction: column;
-    margin-bottom: 34px;
+    margin-bottom: 28px;
   }
 
   .plans__block {
     width: 259px;
-    height: 234px;
-    margin-left: 0;
     margin-bottom: 20px;
     padding-top: 40px;
   }
@@ -767,12 +718,11 @@ li {
   .plans__img {
     width: 85px;
     height: 85px;
-    margin-left: 4px;
+    margin-bottom: 10px;
   }
 
   .plans__block:first-child .plans__img {
-    margin-left: 2px;
-    margin-top: 4px;
+    margin-bottom: 14px;
   }
 
   .plans__title {
@@ -782,39 +732,29 @@ li {
   .plans__subtitle {
     font: 800 20px/25px 'Gilroy', sans-serif;
     margin-bottom: 0;
-    margin-top: 11px;
-    margin-left: 4px;
   }
 
   .plans__block:first-child .plans__subtitle {
-    margin-top: 10px;
     margin-bottom: 14px;
   }
 
   .plans__block:last-child .plans__subtitle {
-    margin-top: 12px;
-    margin-left: 50px;
     margin-bottom: 15px;
     width: 162px;
-  }
-
-  .plans__subtitle_position {
-    margin-left: 4px;
   }
 
   .plans__desc {
     font: 800 10px/12px 'Gilroy', sans-serif;
     width: 116px;
-    margin: 7px auto 42px;
+    margin: 7px auto;
   }
 
   .plans__block:first-child .plans__desc {
-    margin-left: 73px;
+    margin: 16px auto 0;
   }
 
   .plans__block:last-child .plans__desc {
     width: 125px;
-    margin-left: 65px;
   }
 
   .section__title {
@@ -826,7 +766,7 @@ li {
     width: 226px;
     min-height: 210px;
     margin: 0 auto;
-    padding: 27px 0 54px 0;
+    padding: 2px 0 54px 0;
   }
 
   .contact {
@@ -835,9 +775,9 @@ li {
 
   .contact__title {
     font: 800 20px/25px 'Gilroy', sans-serif;
-    margin-top: 0;
     margin-bottom: 25px;
-  }
+    padding-top: 2px;
+  } 
 
   .form__input {
     font: 300 10px/12px 'Gilroy', sans-serif;
@@ -864,9 +804,3 @@ li {
     font: 400 10px/12px 'Roboto', sans-serif;
   }
 }
-
-/* @media (min-width:1441px) {
-
-} */
-
-/* for bigger screens above */
